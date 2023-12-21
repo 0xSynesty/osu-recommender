@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "osu python recommender"
+version = "0.1.0"
+description = "A project that aims at recommending beatmaps to people based on their tastes or on similar beatmaps."
+authors = ["0xSynesty <antoine.labonne1@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+pandas = "^2.1.4"
+notebook = "^7.0.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
